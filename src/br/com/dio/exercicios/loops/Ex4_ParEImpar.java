@@ -26,7 +26,7 @@ public class Ex4_ParEImpar {
             if (numero % 2 == 0 ) quantPares++;
             else quantImpares++;
 
-            count++;
+            count++; //significa: count = count + 1;
         } while(count < quantNumeros);
 
         System.out.println("Quantidade Par: " + quantPares);
